@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="refresh" content="180">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-div">
+        <h1> Bitcoin Current Price: <span id="Currency-sign">$</span><span id="Bitcoin-rate"></span></h1>
+
+        <h2>Select Currency:
+            <label class="container">Dollars
+                <input type="radio" checked="checked" name="currency-choice" value="USD">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">Euros
+                <input type="radio" name="currency-choice" value="EUR">
+                <span class="checkmark"></span>
+            </label>
+            <label class="container">Pounds
+                <input type="radio" name="currency-choice" value="GBP">
+                <span class="checkmark"></span>
+            </label>
+        </h2>
+        <button class="button" id="refresh-data-btn">Refresh</button>
+
+    </div>
+
+
+    <script src="bitcoin-xml.js"></script>
+</body>
+
+</html>
+</h2>
